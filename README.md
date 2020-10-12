@@ -66,7 +66,7 @@ module "rds_mssql" {
 Please refer to [CHANGELOG.md](CHANGELOG.md) for the latest release.
 
 ```hcl
-module "bdp_buckets" {
+module "rds_mssql" {
   source = "git::https://github.com/zoitech/terraform-aws-rds.git?ref=1.0.0"
 }
 ```hcl
